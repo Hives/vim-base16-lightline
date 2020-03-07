@@ -13,25 +13,25 @@ let s:base0A = [ '#F7CA88',  3 ] " yellow
 let s:base0B = [ '#A1B56C',  2 ] " green
 let s:base0C = [ '#86C1B9',  6 ] " teal
 let s:base0D = [ '#7CAFC2',  4 ] " blue
-let s:base0E = [ '#BA8BAF',  5 ] " pink
-let s:base0F = [ '#A16946', 17 ] " brown
+let s:base0E = [ '#BA8BAF',  5 ] " purple
+let s:base0F = [ '#A16946', 17 ] " pink
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-let s:p.normal.left     = [ [ s:base00, s:base03 ], [ s:base05, s:base02 ] ]
-let s:p.insert.left     = [ [ s:base00, s:base0B ], [ s:base0B, s:base02 ] ]
-let s:p.visual.left     = [ [ s:base00, s:base09 ], [ s:base09, s:base02 ] ]
-let s:p.replace.left    = [ [ s:base00, s:base08 ], [ s:base08, s:base02 ] ]
-let s:p.inactive.left   = [ [ s:base02, s:base00 ] ]
+let s:p.normal.left     = [ [ s:base00, s:base0D ], [ s:base00, s:base02 ] ]
+let s:p.insert.left     = [ [ s:base00, s:base0B ], [ s:base00, s:base02 ] ]
+let s:p.visual.left     = [ [ s:base00, s:base0F ], [ s:base00, s:base02 ] ]
+let s:p.replace.left    = [ [ s:base00, s:base08 ], [ s:base00, s:base02 ] ]
+let s:p.inactive.left   = [ [ s:base03, s:base01 ] ]
 
-let s:p.normal.middle   = [ [ s:base06, s:base01 ] ]
-let s:p.inactive.middle = [ [ s:base01, s:base00 ] ]
+let s:p.normal.middle   = [ [ s:base04, s:base01 ] ]
+let s:p.inactive.middle = [ [ s:base03, s:base00 ] ]
 
-let s:p.normal.right    = [ [ s:base00, s:base03 ], [ s:base05, s:base02 ] ]
-let s:p.insert.right    = [ [ s:base00, s:base0B ], [ s:base0B, s:base02 ] ]
-let s:p.visual.right    = [ [ s:base00, s:base09 ], [ s:base09, s:base02 ] ]
-let s:p.replace.right   = [ [ s:base00, s:base08 ], [ s:base08, s:base02 ] ]
-let s:p.inactive.right  = [ [ s:base02, s:base00 ] ]
+let s:p.normal.right    = [ [ s:base00, s:base04 ], [ s:base00, s:base02 ] ]
+let s:p.insert.right    = [ [ s:base00, s:base04 ], [ s:base00, s:base02 ] ]
+let s:p.visual.right    = [ [ s:base00, s:base04 ], [ s:base00, s:base02 ] ]
+let s:p.replace.right   = [ [ s:base00, s:base04 ], [ s:base00, s:base02 ] ]
+let s:p.inactive.right  = [ [ s:base03, s:base01 ], [ s:base03, s:base01 ], [ s:base03, s:base01 ] ]
 
 let s:p.normal.error    = [ [ s:base07, s:base08 ] ]
 let s:p.normal.warning  = [ [ s:base07, s:base09 ] ]
